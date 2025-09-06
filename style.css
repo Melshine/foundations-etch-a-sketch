@@ -7,7 +7,6 @@ body {
 #grid {
     display: flex;
     flex-wrap: wrap;
-    outline: 1px solid;
 }
 
 #grid div {
@@ -16,4 +15,8 @@ body {
 
 .black {
     background-color: black;
+}
+
+button {
+    margin : 15px;
 }
