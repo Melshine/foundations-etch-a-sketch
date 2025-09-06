@@ -10,3 +10,8 @@ for (let i = 0; i < GRID_WITDH ** 2; i++) {
 }
 
 grid.style.width = `${GRID_WITDH * CELL_WIDTH}px`;
+
+grid.addEventListener('mouseover', event => {
+    const cell = event.target;
+    cell.classList.add('black');
+})
