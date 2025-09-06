@@ -11,6 +11,7 @@ body {
 
 #grid div {
     outline: 1px solid;
+    opacity: .1;
 }
 
 .black {
